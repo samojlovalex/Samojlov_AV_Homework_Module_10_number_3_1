@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_10_number_3_1</string>
+    <string name="toolbar_title">Приложение ввода текста</string>
+    <string name="textVieWTV">Поле для вывода информации</string>
+    <string name="editTextET">Поле для ввода информации</string>
+    <string name="saveDataBT">Сохранить данные</string>
+    <string name="deleteData">Удалить</string>
+    <string name="confirmDeletion">Подтвердите удаление</string>
+    <string name="dataHasBeenDeleted">Данные удалены</string>
+    <string name="exit">Exit</string>
+    <string name="toast_exit">Приложение закрыто</string>
+</resources>

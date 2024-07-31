@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMain"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:background="@color/Blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:titleTextColor="@color/white"
+        tools:ignore="MissingConstraints">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/editTextET"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="@string/editTextET"
+        android:minHeight="@dimen/minHeight"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSiZeET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarMain"
+        app:layout_constraintVertical_bias="0.1">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textVieWTV"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:hint="@string/textVieWTV"
+        android:gravity="center"
+        android:textSize="@dimen/textSiZeTV"
+        android:textColor="@color/black"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf = "@+id/editTextET"
+        app:layout_constraintVertical_bias="0.1"/>
+
+<LinearLayout
+    android:layout_width="@dimen/layout_width"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textVieWTV"
+    app:layout_constraintVertical_bias="0.1">
+
+    <Button
+        android:id="@+id/saveDataBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saveDataBT"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/Blue"
+        android:layout_weight="1"
+        android:layout_marginEnd="@dimen/margin"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/deleteDataBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteData"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/Blue"
+        android:layout_weight="1"
+        >
+
+    </Button>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

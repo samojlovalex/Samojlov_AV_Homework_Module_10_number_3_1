@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="textSiZeET">26sp</dimen>
+    <dimen name="textSiZeTV">26sp</dimen>
+    <dimen name="margin">4dp</dimen>
+    <dimen name="minHeight">48dp</dimen>
+</resources>
