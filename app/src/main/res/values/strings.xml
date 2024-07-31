@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Samojlov_AV_Homework_Module_10_number_3_1</string>
-    <string name="toolbar_title">Приложение ввода текста</string>
     <string name="textVieWTV">Поле для вывода информации</string>
     <string name="editTextET">Поле для ввода информации</string>
     <string name="saveDataBT">Сохранить данные</string>
